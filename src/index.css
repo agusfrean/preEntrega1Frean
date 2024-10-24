@@ -1,0 +1,81 @@
+/* Estilos globales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.navbar .brand a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.navbar .categories a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.cart-widget {
+  display: flex;
+  align-items: center;
+}
+
+.cart-widget .fa-shopping-cart {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.cart-widget .cart-count {
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.item-list {
+  padding: 2rem;
+}
+
+.item-list h1 {
+  font-size: 2rem;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.item-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+}
+
+.item-card a {
+  text-decoration: none;
+  color: black;
+}
+
+.item-detail {
+  padding: 2rem;
+}
+
+.item-detail h2 {
+  font-size: 2rem;
+}
+
+.item-detail p {
+  font-size: 1rem;
+}

@@ -1,10 +1,8 @@
-import React from 'react';
-
 const CartWidget = () => {
   return (
     <div className="cart-widget">
-      <span role="img" aria-label="cart" className="cart-icon">🛒</span>
-      <span className="cart-count">3</span> {/* Número hardcodeado */}
+      <i className="fa fa-shopping-cart"></i>
+      <span className="cart-count">3</span>
     </div>
   );
 };
